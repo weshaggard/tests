@@ -3,7 +3,7 @@
   "version": 2,
   "targets": {
     ".NETCoreApp,Version=v1.0": {
-      "Libuv/1.9.1": {
+      "Libuv/1.9.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
@@ -147,10 +147,10 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.NETCore.App/1.1.0": {
+      "Microsoft.NETCore.App/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Libuv": "1.9.1",
+          "Libuv": "1.9.0",
           "Microsoft.CSharp": "4.0.1",
           "Microsoft.CodeAnalysis.CSharp": "1.3.0",
           "Microsoft.CodeAnalysis.VisualBasic": "1.3.0",
@@ -2110,7 +2110,7 @@
       }
     },
     ".NETCoreApp,Version=v1.0/osx.10.10-x64": {
-      "Libuv/1.9.1": {
+      "Libuv/1.9.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
@@ -2223,10 +2223,10 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.NETCore.App/1.1.0": {
+      "Microsoft.NETCore.App/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Libuv": "1.9.1",
+          "Libuv": "1.9.0",
           "Microsoft.CSharp": "4.0.1",
           "Microsoft.CodeAnalysis.CSharp": "1.3.0",
           "Microsoft.CodeAnalysis.VisualBasic": "1.3.0",
@@ -4473,7 +4473,7 @@
       }
     },
     ".NETCoreApp,Version=v1.0/ubuntu.14.04-x64": {
-      "Libuv/1.9.1": {
+      "Libuv/1.9.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
@@ -4586,10 +4586,10 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.NETCore.App/1.1.0": {
+      "Microsoft.NETCore.App/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Libuv": "1.9.1",
+          "Libuv": "1.9.0",
           "Microsoft.CSharp": "4.0.1",
           "Microsoft.CodeAnalysis.CSharp": "1.3.0",
           "Microsoft.CodeAnalysis.VisualBasic": "1.3.0",
@@ -6838,7 +6838,7 @@
       }
     },
     ".NETCoreApp,Version=v1.0/win10-x64": {
-      "Libuv/1.9.1": {
+      "Libuv/1.9.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.0.1"
@@ -6951,10 +6951,10 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.NETCore.App/1.1.0": {
+      "Microsoft.NETCore.App/1.0.1": {
         "type": "package",
         "dependencies": {
-          "Libuv": "1.9.1",
+          "Libuv": "1.9.0",
           "Microsoft.CSharp": "4.0.1",
           "Microsoft.CodeAnalysis.CSharp": "1.3.0",
           "Microsoft.CodeAnalysis.VisualBasic": "1.3.0",
@@ -9160,12 +9160,12 @@
     }
   },
   "libraries": {
-    "Libuv/1.9.1": {
-      "sha512": "uqX2Frwf9PW8MaY7PRNY6HM5BpW1D8oj1EdqzrmbEFD5nH63Yat3aEjN/tws6Tw6Fk7LwmLBvtUh32tTeTaHiA==",
+    "Libuv/1.9.0": {
+      "sha512": "9Q7AaqtQhS8JDSIvRBt6ODSLWDBI4c8YxNxyCQemWebBFUtBbc6M5Vi5Gz1ZyIUlTW3rZK9bIr5gnVyv0z7a2Q==",
       "type": "package",
-      "path": "Libuv/1.9.1",
+      "path": "Libuv/1.9.0",
       "files": [
-        "Libuv.1.9.1.nupkg.sha512",
+        "Libuv.1.9.0.nupkg.sha512",
         "Libuv.nuspec",
         "License.txt",
         "runtimes/debian-x64/native/libuv.so",
@@ -9299,12 +9299,12 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.NETCore.App/1.1.0": {
-      "sha512": "y/ZrJ9yffxXql9vkoDdlzPXqJ4igx6jF+2HQ+uzP55JgC++H7+AOP1Eqga1lnC5+M8Zj/B7gjdSp557Tl37XMg==",
+    "Microsoft.NETCore.App/1.0.1": {
+      "sha512": "igqd3fVCTGsIYHWNP4JtiLa5zpb7bMp7JOfIFlIQGpoGiSE78LgaJSzDCLELUeYNzOh+ML7OC1uXc1VHFrTVmA==",
       "type": "package",
-      "path": "Microsoft.NETCore.App/1.1.0",
+      "path": "Microsoft.NETCore.App/1.0.1",
       "files": [
-        "Microsoft.NETCore.App.1.1.0.nupkg.sha512",
+        "Microsoft.NETCore.App.1.0.1.nupkg.sha512",
         "Microsoft.NETCore.App.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -14775,7 +14775,7 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Microsoft.NETCore.App >= 1.1.0"
+      "Microsoft.NETCore.App >= 1.0.1"
     ],
     ".NETCoreApp,Version=v1.0": []
   },
