@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+      "Microsoft.NETCore.App": {
+        "version": "1.1.0",
+        "exclude": "compile"
+      }
+    },
+
+    "frameworks": {
+        "netcoreapp1.1": { }
+    },
+
+    "runtimes": {
+        "win10-x64": { }
+    }
+}
