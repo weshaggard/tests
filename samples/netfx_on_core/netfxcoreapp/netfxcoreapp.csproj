@@ -66,5 +66,9 @@
   <Target Name="AfterBuild">
     <Move SourceFiles="$(TargetPath)" DestinationFiles="$(TargetDir)\$(AssemblyName).dll" />
     <Move SourceFiles="$(TargetDir)\$(HostExe)$(HostExtension)" DestinationFiles="$(TargetDir)\$(AssemblyName)$(HostExtension)" />
+    <ItemGroup>
+      <CompatShims Include="..\compatshims\*.dll" />
+    </ItemGroup>
+    <Copy SourceFiles="@(CompatShims)" DestinationFolder="$(TargetDir)" />
   </Target>
 </Project>
