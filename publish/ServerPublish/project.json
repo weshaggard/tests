@@ -1,4 +1,4 @@
-﻿{
+{
   "dependencies": {
     "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
     "Microsoft.CSharp": "4.0.1",
@@ -59,6 +59,7 @@
     "System.Security.Claims" : "4.0.1",
     "System.Security.Cryptography.Cng" : "4.2.0",
     "System.Security.Cryptography.Csp" : "4.0.0",
+    "System.Security.Cryptography.Pkcs" : "4.0.0",
     "System.Security.Principal" : "4.0.1",
     "System.Security.Principal.Windows" : "4.0.0",
     "System.Security.SecureString" : "4.0.0",
