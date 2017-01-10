@@ -4,6 +4,8 @@ syntax: glob
 
 # Tool Runtime Dir
 /[Tt]ools/
+RestoredOutput/
+_DotNetCore10/
 
 # User-specific files
 *.suo
@@ -150,9 +152,6 @@ DocProject/Help/html
 *.nuget.targets
 *.nupkg
 **/packages/*
-
-# NuGet package restore lockfiles
-project.lock.json
 
 # Windows Azure Build Output
 csx/
