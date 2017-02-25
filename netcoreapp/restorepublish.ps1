@@ -11,9 +11,9 @@ if ($outputDir -eq $null)
 }
 if ((Test-Path $outputDir))
 {
-  rmdir $outputDir
+  rm $outputDir -r -force
 }
 
 mkdir $outputDir
-copy .\project.lock.json $outputDir
+copy .\obj\project.assets.json $outputDir
 move .\bin\Debug\netcoreapp1.1\* $outputDir

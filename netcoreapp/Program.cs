@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace ConsoleApplication
+namespace netcoreapp
 {
-    public class Program
+    class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
         }
