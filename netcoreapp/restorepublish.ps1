@@ -1,9 +1,14 @@
-dotnet restore
-dotnet publish -f netcoreapp1.1 -r win10-x64
-dotnet publish -f netcoreapp1.1 -r osx.10.10-x64
-dotnet publish -f netcoreapp1.1 -r ubuntu.14.04-x64
+param (
+$targetFramework = "netcoreapp1.1",
+$ncaPackageVersion = "1.1.1"
+)
 
-$outputDir = $args[0]
+dotnet restore -p:TargetFramework=$targetFramework -p:RuntimeFrameworkVersion=$ncaPackageVersion
+dotnet publish -f $targetFramework -r win10-x64 -p:TargetFramework=$targetFramework -p:RuntimeFrameworkVersion=$ncaPackageVersion
+dotnet publish -f $targetFramework -r osx.10.10-x64 -p:TargetFramework=$targetFramework -p:RuntimeFrameworkVersion=$ncaPackageVersion
+dotnet publish -f $targetFramework -r ubuntu.14.04-x64 -p:TargetFramework=$targetFramework -p:RuntimeFrameworkVersion=$ncaPackageVersion
+
+$outputDir = $targetFramework + "-" + $ncaPackageVersion
 
 if ($outputDir -eq $null)
 {
@@ -16,4 +21,4 @@ if ((Test-Path $outputDir))
 
 mkdir $outputDir
 copy .\obj\project.assets.json $outputDir
-move .\bin\Debug\netcoreapp1.1\* $outputDir
+move .\bin\Debug\$targetFramework\* $outputDir

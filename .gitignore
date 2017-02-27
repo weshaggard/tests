@@ -28,6 +28,7 @@ msbuild.log
 msbuild.err
 msbuild.wrn
 netcoreapp/1.*
+netcoreapp/*-*
 netcoreapp/latest
 
 # Cross building rootfs
