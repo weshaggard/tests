@@ -1,6 +1,6 @@
 param (
 $targetFramework = "netcoreapp1.1",
-$ncaPackageVersion = "1.1.1",
+$ncaPackageVersion = "1.1.2",
 $dotnetPath = "d:\cli\dotnet.exe"
 )
 
