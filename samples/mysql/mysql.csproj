@@ -44,7 +44,7 @@
     <PackageReference Include="System.Linq.Expressions" Version="4.3.0" />
     <PackageReference Include="System.Security.Permissions" Version="4.5.0-preview1-25323-02" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0-preview1-25323-02" />
-    <PackageReference Include="System.Text.Encodings.Web" Version="4.5.0-preview1-25323-02" />
+    <PackageReference Include="System.Text.Encodings.Web" Version="4.5.1" />
 </ItemGroup>
 
 
